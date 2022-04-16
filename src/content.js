@@ -1,9 +1,60 @@
 let tabContent = [
     {
-        name: "home",
-        content: `Hi, I'm Vivek Shrikhande
-        <br/><span style='color: #238636;'># Skills</span>
-        <br/><span style='color: #238636;'>// Skills</span>`},
+        name: "about",
+        content: `
+        <p>
+        Hi,
+        </p> 
+        
+        <p>
+        My name is Vivek Shrikhande. I am an experienced Software Engineer based
+        in Bengaluru, India. I am mainly focused on backend development but also
+        have working experience in building UI.
+        </p>
+        
+        <p>
+        During my last role at Maplelabs, I led a small team of 3 for developing
+        a microservices based application.
+        </p>
+
+        <p>
+        During my free time, I do open source development. I have created couple
+        of my own open source projects (see projects section) and recently have
+        also contributed to
+        <a href="https://github.com/vivek-shrikhande/tern/commit/95ae93cdc9416fed15ca0b102df3709f99041383">
+        tern</a>
+        SQL migrator written in GO.
+        </p>
+
+        Some of the technologies I am familiar with,</br>
+        <h4>&nbsp; # Languages</h4>
+        &nbsp; - Go, Python</br>
+        &nbsp; - Java, Javascript (prior experience)
+
+        <h4>&nbsp; # Frontend (working experience)</h4>
+        &nbsp; - HTML, CSS, Angular, Svelte 
+
+        <h4>&nbsp; # Platforms and tools</h4>
+        &nbsp; - Linux, Docker, Kubernetes</br>
+        &nbsp; - Git, Makefile</br>
+
+        <h4>&nbsp; # Databases, Messages queue and others</h4>
+        &nbsp; - ELK Stack, Kafka, Redis, MongoDB, PostgreSQL, BigQuery, Snowflake</br>
+        </br>
+        
+        <p>
+        Besides programming, I play PUBG (online multiplayer game), watch Cricket and few other sports.
+        </p>
+
+        <p>
+        Currently I am on vacation and open to opportunities.
+        </p>
+
+        <p>
+        If you are interested in having me in your project, please contact me by email.
+        </p>        
+        `
+    },
     {
         name: "projects",
         content: `
@@ -13,6 +64,7 @@ let tabContent = [
         </p>
 
         <dl class="last-elem">
+            
             <dt><a href="https://github.com/vivek-shrikhande/json-flat"><h3>- json-flat</h3></a></dt>
             <dd>A Python library to flatten a nested json. Nested json is common in documents stores like
             MongoDB, elasticsearch etc. Since, it's nested , it can't be directly shown in a tabular format
@@ -30,32 +82,6 @@ let tabContent = [
                 </p>
             </dd>
         </dl>
-        `
-    },
-    {
-        name: "experience", 
-        content: "some experience content"
-    },
-    {
-        name: "about",
-        content: `
-        <p>
-            I'm an experienced software developer. I'm mainly focused on backend systems
-            but know the basics of few popular UI frameworks/libraries like Angular, React, Svelte.
-            For instance, I designed and developed this site with Svelte from scratch.
-        </p>
-
-        <p>
-            Besides coding, I play PUBG (multiplayer mobile game), watch Cricket, create memes.
-        </p>
-
-
-        <h3># Contact Info</h3>
-        <p class="last-elem">
-            Vivek Shrikhande<br/>
-            - Bengaluru, INDIA - 590029<br/>
-            - email: <span class="wrapword">vivekshrikhande444@gmail.com</span>
-        </p>
         `
     },
 ];

@@ -7,7 +7,7 @@
 	export let tabs = [
 		{name: "tab_name", content: "tab_content"},
 	]
-	let selectedIndex = 3;
+	let selectedIndex = 0;
     
 	function handleSelect(event) {
 		selectedIndex = event.detail.selectedIndex
@@ -53,8 +53,12 @@
 
 
 <style>
-	:global(h3) {
-		color: #33ff00;
+	:global(h3), :global(h4) {
+		color: #33ff00;		
+	}
+
+	:global(h4) {
+		margin-bottom: 0;
 	}
 
 	:global(dd) {
