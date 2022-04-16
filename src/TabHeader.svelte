@@ -8,7 +8,7 @@
 
 	export let names = ["tab_name"];
 	
-	let selectedIndex = 3;
+	let selectedIndex = 0;
 	
 	function handleClick(i) {
 		selectedIndex = i;
@@ -42,14 +42,11 @@
 
 <style>
 	.header-small-screen {
-		display: flex;
-		flex-direction: column;
 		flex: 0 0 auto;
 	}
 
 	.header-large-screen {
 		display: flex;
-		flex: 0 0 auto;
-		justify-content: space-between;
+		gap: 20px;
 	}
 </style>
