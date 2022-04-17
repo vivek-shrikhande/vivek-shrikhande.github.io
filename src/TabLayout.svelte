@@ -24,9 +24,7 @@
 			<p>&middot;</p>
 			<a href="https://github.com/vivek-shrikhande" rel="noopener">github</a>
 			<p>&middot; </p>
-			<a href="https://" rel="noopener">linkedin</a>
-			<p>&middot;</p>
-			<a href="https://" rel="noopener">twitter</a>
+			<a href="https://www.linkedin.com/in/vivek-shrikhande" rel="noopener">linkedin</a>
 		</div>
 	</div>
 	{/if}
@@ -42,9 +40,7 @@
 			<p>&middot;</p>
 			<a href="https://github.com/vivek-shrikhande" rel="noopener">github</a>
 			<p>&middot; </p>
-			<a href="https://" rel="noopener">linkedin</a>
-			<p>&middot;</p>
-			<a href="https://" rel="noopener">twitter</a>
+			<a href="https://www.linkedin.com/in/vivek-shrikhande" rel="noopener">linkedin</a>
 		</div>
 	</div>
 	{/if}
