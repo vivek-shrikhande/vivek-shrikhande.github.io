@@ -36,7 +36,7 @@
 		<TabHeader names="{tabs.map(elem => elem.name)}" on:select="{handleSelect}"/>
 		<TabContent content="{tabs[selectedIndex].content}"/>
 		<div class="links">
-			<a href="mailto://vivekshrikhande444@gmail.com" rel="noopener">email</a>
+			<a href="mailto:vivekshrikhande444@gmail.com" rel="noopener">email</a>
 			<p>&middot;</p>
 			<a href="https://github.com/vivek-shrikhande" rel="noopener">github</a>
 			<p>&middot; </p>
