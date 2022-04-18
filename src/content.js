@@ -38,7 +38,7 @@ let tabContent = [
         &nbsp; - Linux, Docker, Kubernetes</br>
         &nbsp; - Git, Makefile</br>
 
-        <h4>&nbsp; # Databases, Messages queue and others</h4>
+        <h4>&nbsp; # Databases, Message queue and others</h4>
         &nbsp; - ELK Stack, Kafka, Redis, MongoDB, PostgreSQL, BigQuery, Snowflake</br>
         </br>
         
@@ -67,7 +67,7 @@ let tabContent = [
             
             <dt><a href="https://github.com/vivek-shrikhande/json-flat"><h3>- json-flat</h3></a></dt>
             <dd>A Python library to flatten a nested json. Nested json is common in documents stores like
-            MongoDB, elasticsearch etc. Since, it's nested , it can't be directly shown in a tabular format
+            MongoDB, elasticsearch etc. Since it's nested, it can't be directly shown in a tabular format
             (for example in UI) or exported to a CSV. json-flat can help convert such json into a
             flatter one.</dd>
 
