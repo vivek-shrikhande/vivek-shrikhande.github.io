@@ -23,7 +23,7 @@ let tabContent = [
         also contributed to
         <a href="https://github.com/vivek-shrikhande/tern/commit/95ae93cdc9416fed15ca0b102df3709f99041383">
         tern</a>
-        SQL migrator written in GO.
+        SQL migrator written in Go.
         </p>
 
         Some of the technologies I am familiar with,</br>
