@@ -3,17 +3,23 @@
 
 	export let content = "some content";
 	
+	let contentPara;
+	let contentContainer;
 	let readPercentage = 'All';
+
+	$: {
+		content;  // just to make sure the reactive declaration depends on "content"
+		if (contentContainer != null) {
+			contentContainer.scrollTop = 0;
+		}
+	}
 
 	afterUpdate(() => computeReadPercentage());
 
 	function computeReadPercentage() {
-		let contentPara = document.getElementById("content-para");
-		let contentContainer = document.getElementById("content-container");
-		
 		let heightDiff = contentPara.offsetHeight - contentContainer.offsetHeight;
 		
-		if (heightDiff < 0) {  // para in shorter than content
+		if (heightDiff < 0) {  // para is shorter than content
 			readPercentage = 'All'
 		} else if (contentContainer.scrollTop == 0) {
 			readPercentage = 'Top'
@@ -27,8 +33,8 @@
 	}
 </script>
 
-<div id="content-container" on:scroll="{computeReadPercentage}">
-	<p id="content-para">{@html content}</p>
+<div id="content-container" on:scroll="{computeReadPercentage}" bind:this={contentContainer}>
+	<p id="content-para" bind:this={contentPara}>{@html content}</p>
 </div>
 <p class="read-percentage">{readPercentage}</p>
 

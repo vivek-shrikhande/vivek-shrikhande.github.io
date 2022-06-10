@@ -18,8 +18,8 @@ let tabContent = [
         </p>
 
         <p>
-        During my free time, I do open source development. I have created couple
-        of my own open source projects (see projects section) and recently have
+        I do open source development in my free time. I have authored few open
+        source projects (see projects section) and recently have
         also contributed to
         <a href="https://github.com/vivek-shrikhande/tern/commit/95ae93cdc9416fed15ca0b102df3709f99041383">
         tern</a>
@@ -59,8 +59,8 @@ let tabContent = [
         name: "projects",
         content: `
         <p>
-            I do open source development during my free time. I have created a couple of
-            open projects as listed below,
+            I do open source development in my free time. I have authored a few open
+            source projects as listed below,
         </p>
 
         <dl class="last-elem">
@@ -69,7 +69,12 @@ let tabContent = [
             <dd>A Python library to flatten a nested json. Nested json is common in documents stores like
             MongoDB, elasticsearch etc. Since it's nested, it can't be directly shown in a tabular format
             (for example in UI) or exported to a CSV. json-flat can help convert such json into a
-            flatter one.</dd>
+            flatter one. Try it out <a href="https://vivek-shrikhande.github.io/json-to-csv-web-app">online</a>.
+            </dd>
+
+            <dt><a href="https://vivek-shrikhande.github.io/json-to-csv-web-app"><h3>- json-to-csv-web-app</h3></a></dt>
+            <dd>A simple website for flattening/converting json to csv. Uses the above library for the actual flattening.
+            The backend API is served using AWS lambda.</dd>
 
             <dt><a href="https://vivek-shrikhande.github.io/easy-mql/#/"><h3>- easy-mql</h3></a></dt>
             <dd>
